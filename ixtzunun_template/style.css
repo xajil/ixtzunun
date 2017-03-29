@@ -1,1 +1,63 @@
-style.css
+/*
+Theme Name: Tzununija 
+Template Theme URI: http:www.tzununija.org/
+Author: Neftali Sacuj 
+Description: Plantilla de wordrpess para el sitio web de tzununija.org.
+Version: 1.0 
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: black, brown, orange, tan, white, yellow, light, one-column, two-columns, right-sidebar, flexible-width, custom-header, custom-menu, editor-style, featured-images, microformats, post-formats, rtl-language-support, sticky-post, translation-ready
+Text Domain: Tzununija
+
+Este tema está licenciado bajo la GPL.
+*/
+@import url('bootstrap/css/bootstrap.css');
+@import url('bootstrap/css/bootstrap-responsive.css');
+
+body {
+	padding-top: 60px;
+	padding-bottom: 40px;
+	/* background: url('bootstrap/img/petate.tif') no-repeat center bottom;  */
+}
+#wrap{
+    /* background:url('bootstrap/img/petate.tif') no-repeat center bottom;    */
+}
+
+p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 { 
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 { 
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+      /* background: url('bootstrap/img/cinta.png') no-repeat center bottom; 
+      opacity: 0.75;
+      filter:  alpha(opacity=75);
+      */
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      /* padding-top: 15px; */
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      /*      font-size: 12px; */
+      /* letter-spacing: 5px; */
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
